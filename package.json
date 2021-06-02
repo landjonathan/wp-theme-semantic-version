@@ -1,0 +1,48 @@
+{
+  "name": "wp-theme-semantic-version",
+  "version": "0.1.0",
+  "description": "Bumps a Wordpress theme's version number, according to semver rules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:patch": "cd test && node ../bin/cli.js",
+    "test:minor": "cd test && node ../bin/cli.js minor",
+    "test:major": "cd test && node ../bin/cli.js major"
+  },
+  "bin": {
+    "wp-bump": "./bin/cli.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "keywords": [
+    "wp",
+    "wordpress",
+    "theme",
+    "semver",
+    "version",
+    "semantic",
+    "versioning"
+  ],
+  "author": {
+    "name": "Jonathan Land",
+    "email": "main@jonathanland.design",
+    "url": "https://jonathanland.design"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "semver": "^7.3.5"
+  },
+  "homepage": "https://github.com/landjonathan/wp-theme-semantic-version",
+  "repository": {
+    "url": "https://github.com/landjonathan/wp-theme-semantic-version",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/landjonathan/wp-theme-semantic-version/issues"
+  },
+  "devDependencies": {
+    "mocha": "^8.4.0",
+    "rimraf": "^3.0.2"
+  }
+}

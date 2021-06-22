@@ -8,12 +8,12 @@ Useful for cache-busting production sites.
 ### Terminal
 In the theme's folder, run
 ```bash
-npx wp-theme-semantic-version
+npx wp-theme-semver-bump
 ```
 
 ### In a script (e.g. gulp)
 ```js
-const bump = require('wp-theme-semantic-version')
+const bump = require('wp-theme-semver-bump')
 // ...
 bump()
 ```
@@ -22,7 +22,7 @@ bump()
 
 ### Release type
 ```bash
-npx wp-theme-semantic-version minor
+npx wp-theme-semver-bump minor
 ```
 or
 ```js
@@ -31,7 +31,7 @@ bump('minor')
 
 ## Custom file location
 ```bash
-npx wp-theme-semantic-version patch relative/path/to/style.css
+npx wp-theme-semver-bump patch relative/path/to/style.css
 ```
 or
 ```js

@@ -1,5 +1,5 @@
 {
-  "name": "wp-theme-semantic-version",
+  "name": "wp-theme-semver-bump",
   "version": "0.2.0",
   "description": "Bumps a Wordpress theme's version number, according to semver rules.",
   "main": "index.js",
@@ -33,13 +33,13 @@
   "dependencies": {
     "semver": "^7.3.5"
   },
-  "homepage": "https://github.com/landjonathan/wp-theme-semantic-version",
+  "homepage": "https://github.com/landjonathan/wp-theme-semver-bump",
   "repository": {
-    "url": "https://github.com/landjonathan/wp-theme-semantic-version",
+    "url": "https://github.com/landjonathan/wp-theme-semver-bump",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/landjonathan/wp-theme-semantic-version/issues"
+    "url": "https://github.com/landjonathan/wp-theme-semver-bump/issues"
   },
   "devDependencies": {
     "mocha": "^8.4.0",

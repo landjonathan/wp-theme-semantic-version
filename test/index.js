@@ -4,7 +4,7 @@ const path = require('path')
 const { promises: fs, existsSync } = require('fs')
 const rimraf = require('rimraf')
 
-describe('wp-theme-semantic-version', () => {
+describe('wp-theme-semver-bump', () => {
   const filesFolder = path.join(__dirname, 'theme')
   const filePath = path.join(filesFolder, '/style.css')
 

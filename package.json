@@ -42,7 +42,7 @@
     "url": "https://github.com/landjonathan/wp-theme-semver-bump/issues"
   },
   "devDependencies": {
-    "mocha": "^8.4.0",
+    "mocha": "^10.1.0",
     "rimraf": "^3.0.2"
   }
 }
